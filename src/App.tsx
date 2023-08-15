@@ -3,7 +3,7 @@ import { Toaster } from 'react-hot-toast'
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen">
       <Toaster position='bottom-center'/>
       <AddTodo />
       <TodoList />
